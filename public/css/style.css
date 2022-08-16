@@ -2998,6 +2998,12 @@ h6 {
 /*	17) ORIDO MEDIA QUERIES (FOR SMALL DEVIVES)
 /*---------------------------------------------------*/
 
+@media (max-width: 2600px) {
+  .portfolio_list {
+    margin-top: 89px;
+  }
+}
+
 @media (max-width: 1600px) {
   body {
     font-size: 16px;
@@ -3297,6 +3303,10 @@ h6 {
   .orido_tm_contact .element2 .svg {
     width: 70%;
     height: 70%;
+  }
+
+  .portfolio_list {
+    margin-top: 69px;
   }
 }
 

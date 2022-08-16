@@ -27,7 +27,7 @@ const Header = ({ dark }) => {
           <span className="ccc" />
         </div>
         <div className="button">
-          <Link href="tel:+1-877-538-5888">
+          <Link href="tel:+17052596800">
             <a>
               Call Now
             </a>

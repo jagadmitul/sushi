@@ -39,6 +39,11 @@ const MobileMenu = () => {
                 <a>Get Directions</a>
               </Link>
             </li>
+            <li>
+              <Link href="tel:+17052596800">
+                <a>Call Now</a>
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
