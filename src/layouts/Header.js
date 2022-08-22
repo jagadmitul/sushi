@@ -7,21 +7,26 @@ const Header = ({ dark }) => {
         <div className="logo">
           <Link href="/">
             <a>
-              <img src={`img/logo/outlet_logo.png`} alt="" />
+              <img src='img/logo/sushi_logo.png' alt="" />
             </a>
           </Link>
         </div>
         <div className="menu">
           <ul className="anchor_nav">
             <li className="current">
-              <Link href="/">
-                <a>Home</a>
-              </Link>
+              <a href="#home">Home</a>
             </li>
             <li>
-              <Link href="/">
-                <a>Get Directions</a>
-              </Link>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#service">Service</a>
+            </li>
+            <li>
+              <a href="#dishes">Dishes</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
           <span className="ccc" />

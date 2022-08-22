@@ -1,5 +1,5 @@
-import { useState } from "react";
 import Link from "next/link";
+import { useState } from "react";
 
 const MobileMenu = () => {
   const [toggle, setToggle] = useState(false);
@@ -8,9 +8,9 @@ const MobileMenu = () => {
       <div className="mobile_menu_inner">
         <div className="mobile_in">
           <div className="logo">
-            <Link href="/">
+            <Link href='/'>
               <a>
-                <img src="img/logo/outlet_logo.png" alt="" />
+                <img src="img/logo/sushi_logo.png" alt="" />
               </a>
             </Link>
           </div>
@@ -30,19 +30,19 @@ const MobileMenu = () => {
         <div className="dropdown_inner">
           <ul className="anchor_nav">
             <li className="current">
-              <Link href="/">
-                <a>Home</a>
-              </Link>
+              <a href="#home">Home</a>
             </li>
             <li>
-              <Link href="/">
-                <a>Get Directions</a>
-              </Link>
+              <a href="#about">About</a>
             </li>
             <li>
-              <Link href="tel:+17052596800">
-                <a>Call Now</a>
-              </Link>
+              <a href="#service">Service</a>
+            </li>
+            <li>
+              <a href="#dishes">Dishes</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>

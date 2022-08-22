@@ -19,8 +19,21 @@ export const projectSliderProps = {
   },
   breakpoints: {
     0: { slidesPerView: 1 },
-    768: { slidesPerView: 1, spaceBetween: 50 },
-    1040: { slidesPerView: 1, spaceBetween: 50 },
+    768: { slidesPerView: 2, spaceBetween: 50 },
+    1040: { slidesPerView: 3, spaceBetween: 50 },
+  },
+};
+export const headerSliderProps = {
+  slidesPerView: 1,
+  spaceBetween: 50,
+  loop: true,
+  navigation: {
+    nextEl: ".next_button",
+    prevEl: ".prev_button",
+  },
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
   },
 };
 export const partnersSliderProps = {
@@ -32,12 +45,12 @@ export const partnersSliderProps = {
     disableOnInteraction: false,
   },
   breakpoints: {
-    0: { slidesPerView: 1 },
-    480: { slidesPerView: 1 },
-    768: { slidesPerView: 1 },
-    1040: { slidesPerView: 1 },
-    1200: { slidesPerView: 1 },
-    1600: { slidesPerView: 1 },
-    1920: { slidesPerView: 1 },
+    0: { slidesPerView: 2 },
+    480: { slidesPerView: 2 },
+    768: { slidesPerView: 3 },
+    1040: { slidesPerView: 4 },
+    1200: { slidesPerView: 5 },
+    1600: { slidesPerView: 5 },
+    1920: { slidesPerView: 5 },
   },
 };

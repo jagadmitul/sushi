@@ -1,10 +1,10 @@
 import dynamic from "next/dynamic";
+import { useEffect } from "react";
 import About from "../src/components/About";
 import Blog from "../src/components/Blog";
 import Contact from "../src/components/Contact";
 import ExpertAreas from "../src/components/ExpertAreas";
 import Feedback from "../src/components/Feedback";
-import HeaderCarousel from "../src/components/HeaderCarousel";
 import Home from "../src/components/Home";
 import Services from "../src/components/Services";
 import CopyRight from "../src/layouts/CopyRight";
@@ -20,25 +20,30 @@ const Partners = dynamic(() => import("../src/components/Partners"), {
   ssr: false,
 });
 
-const Index = () => {
+const IndexDark = () => {
+  useEffect(() => {
+    return () => {
+      document.querySelector("body").classList.add("dark");
+    };
+  }, []);
+
   return (
     <Layout>
       <MobileMenu />
-      <Header />
-      <HeaderCarousel />
-      {/* <Home /> */}
+      <Header dark />
+      <Home dark />
       <About />
-      {/* <ExpertAreas /> */}
+      <ExpertAreas />
       <Services />
       <Projects />
-      {/* <Feedback />
+      <Feedback dark />
       <Blog />
-      <Partners /> */}
+      <Partners dark />
       <Contact />
-      {/* <CopyRight /> */}
+      <CopyRight />
       <Mouse />
       <ProgressBar />
     </Layout>
   );
 };
-export default Index;
+export default IndexDark;
