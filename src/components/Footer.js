@@ -13,7 +13,7 @@ const Footer = () => {
                                 <span>Contact Us</span>
                             </h3>
                         </div>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11361.645557045453!2d-79.4181085!3d44.6090631!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9a3511e865e0bf15!2sSushi%20Wadasi!5e0!3m2!1sen!2sin!4v1661080698376!5m2!1sen!2sin" width="100%" height="450" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11361.645557045453!2d-79.4181085!3d44.6090631!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9a3511e865e0bf15!2sSushi%20Wadasi!5e0!3m2!1sen!2sin!4v1661080698376!5m2!1sen!2sin" width="100%" height="450" style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     <div className='orido_tm_informations'>
                         <div className='container'>
