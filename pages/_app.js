@@ -22,6 +22,7 @@ function MyApp({ Component, pageProps }) {
           href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
           rel="stylesheet"
         />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
       </Head>
       <Component {...pageProps} />
     </Fragment>

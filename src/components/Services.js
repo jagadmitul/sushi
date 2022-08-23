@@ -69,7 +69,7 @@ const Services = () => {
         close={() => setOpen(false)}
         data={activeData}
       />
-      <div className="orido_tm_section" id="service">
+      <div className="orido_tm_section" id="business">
         <div className="orido_tm_service">
           <div className="container">
             <div className="orido_tm_main_title">

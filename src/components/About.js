@@ -20,6 +20,9 @@ const About = () => {
               </h3>
             </div>
             <div className="text">
+              <span class="material-symbols-outlined">
+                pin_drop
+              </span>
               <p>
                 66 Mississaga St E <br />
                 Orillia, ON L3V 1V5 <br />

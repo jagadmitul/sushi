@@ -863,7 +863,7 @@ h6 {
     height: auto;
     clear: both;
     float: left;
-    background-color: #722631;
+    /* background-color: #722631; */
     /* background-color: #722631; */
     padding: 180px 0px 120px 0px;
     /* margin-bottom: 120px; */
@@ -879,7 +879,7 @@ h6 {
 }
 
 .orido_tm_about .left {
-    width: 50%;
+    width: 85%;
     padding-right: 50px;
 }
 
@@ -899,7 +899,7 @@ h6 {
     position: relative;
     margin-right: -30px;
     margin-top: -95px;
-    color: #722631;
+    color: var(--main-color);
     line-height: 1;
 }
 
@@ -912,7 +912,7 @@ h6 {
 
 .orido_tm_about .name {
     font-size: 80px;
-    color: #722631;
+    color: var(--main-color);
     font-weight: 700;
     letter-spacing: -4px;
     line-height: 1;
@@ -924,7 +924,7 @@ h6 {
 }
 
 .orido_tm_about .right {
-    width: 50%;
+    width: 25%;
     position: relative;
 }
 
@@ -952,11 +952,11 @@ h6 {
 }
 
 .orido_tm_about .orido_tm_main_title h3 {
-    color: #fff;
+    color: #722631;
 }
 
 .orido_tm_about .orido_tm_main_title h3 span:before {
-    background-color: #fff;
+    background-color: #722631;
 }
 
 .orido_tm_main_title h3 {
@@ -987,9 +987,17 @@ h6 {
 }
 
 .orido_tm_about .right .text p {
-    color: rgba(255, 255, 255, 0.7);
-    font-weight: 300;
+    color: var(--main-color);
+    font-weight: 500;
     line-height: 32px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.orido_tm_about .right .text span {
+    color: var(--main-color);
+    position: absolute;
+    margin-top: 5px;
 }
 
 .orido_tm_about .short {
@@ -1004,8 +1012,8 @@ h6 {
 }
 
 .orido_tm_about .orido_tm_boxed_button a {
-    color: var(--main-color);
-    background-color: #fff;
+    color: white;
+    background-color: #722631;
 }
 
 .orido_tm_about .orido_tm_boxed_button a:hover {
@@ -3026,6 +3034,8 @@ h6 {
     animation: myAnim 2s infinite 0.6s;
 }
 
+/* Custom top styling */
+
 #home {
     padding-top: 75px;
 }
@@ -3097,7 +3107,7 @@ h6 {
         font-size: 15px;
     }
     .orido_tm_boxed_button a {
-        padding: 15px 30px 16px 30px;
+        padding: 5px 30px 5px 30px;
     }
     .orido_tm_hero .orido_tm_simple_button {
         margin-left: 45px;
@@ -3382,7 +3392,7 @@ h6 {
         width: 43px;
     }
     .orido_tm_boxed_button a {
-        padding: 12px 25px 13px 25px;
+        padding: 5px 25px 5px 25px;
     }
     .orido_tm_hero .orido_tm_simple_button {
         margin-left: 30px;
