@@ -20,7 +20,7 @@ const About = () => {
               </h3>
             </div>
             <div className="text">
-              <span class="material-symbols-outlined">
+              <span className="material-symbols-outlined">
                 pin_drop
               </span>
               <p>
